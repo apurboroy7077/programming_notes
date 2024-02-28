@@ -1,0 +1,18 @@
+1. To create Next.js project, npx create-next-app@latest .
+
+
+
+2. To edit title or description of a page, create a object name metadata and export it,
+let metadata = {
+  title: "Music Academy",
+  description: "A Test Project inspired from Chai Aur Code",
+};
+let Homepage = () => {
+  return (
+    <>
+      <h1>This is Homepage</h1>
+    </>
+  );
+};
+export { metadata };
+export default Homepage;
